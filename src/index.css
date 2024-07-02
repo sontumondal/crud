@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navcontainer{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    background:rgb(10, 21, 37);
+    width: 100%;
+    min-height: 5rem;
+    position: fixed;
+}
+.icon{
+  
+    display: flex;
+    font-size: 2rem;
+    color: aquamarine;
+ 
+}
+.icon p{
+    margin: auto;
+
+}
+.link a{
+    text-decoration: none;
+   padding: 0 1rem;
+   color: white;
+   border: none;
+   box-shadow: 0px 0px 0.5rem blue;
+}
+.link a:hover{
+    color: aqua;
+   
+}
+.link a.active{
+   color:yellow;
+
+}
+.logout{
+    display: flex;
+}
+.profileimage{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: 0 0 2px white;
+    
+}
+.home{
+    background-image: url(https://picsum.photos/1600/1200);
+   background-repeat: no-repeat;
+    background-position:center;
+   background-size: cover;
+    width: 100%;
+    min-height: 75vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   padding: 5rem;
+}
+
+.loginform{
+    width: 100%;
+    min-height: 70vh;
+padding-top: 7rem;
+  
+   background-image: url(../public/images/login.jfif);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+   
+  
+}
+
